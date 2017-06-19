@@ -1,97 +1,309 @@
-body {
-    background-color: #777;
-    color: ##ebebeb;
-    width: 960px;
-    font-family: "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    margin-right: 200px;
-    margin-left: 200px;
-}
-
-#header {
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: gray;
-    height: 100;
-    text-align: center;
-    margin: auto;
-    vertical-align: middle;
-}
-
-#nav {
-    background-color: #ebebeb;
-    color: gray;
-    height: 100;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
-.section {
-    width: 495px;
-    height: 255px;
-    background-color: #ebebeb;
-    color: gray;
-    margin-top: 10px;
-    margin-right: 10px;
-    text-align: center;
-    float: left;
-}
-
-#aside {
-    width: 450px;
-    height: 255px;
-    background-color: #ebebeb;
-    color: gray;
-    margin-top: 10px;
-    margin-left: 5px;
-    float: left;
-    text-align: center;
-}
-
-.article {
-    clear: both;
-    width: 475px;
-    height: 187px;
-    background-color: gray;
-    color: white;
-    margin-top: 70px;
-    margin-left: 10px;
-    text-align: center;
-    position: absolute;
-}
-
-h1,
-h2,
-h3 {
-    width: 454px;
-    height: 50px;
-    background-color: white;
-    color: gray;
-    margin-top: 134px;
-    margin-left: 20px;
-    text-align: center;
-    position: absolute;
-}
-
-p {
-    width: 454px;
-    height: 50px;
-    background-color: white;
-    color: gray;
-    margin-top: 195px;
-    margin-left: 20px;
-    text-align: center;
-    position: absolute;
-}
-
-#footer {
-    background-color: #4aaaa5;
-    color: gray;
-    height: 100;
-    text-align: center;
-    margin-top: 285px;
-}
+                        body {
+                            background-color: white;
+                            width: 960px;
+                            border-style: solid;
+                            border-width: 0px;
+                            border-color: #cccccc #cccccc #cccccc #cccccc;
+                            font-family: "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                            font-size: 18px;
+                            margin-top: 10px;
+                            margin-bottom: 100px;
+                            margin-right: 200px;
+                            margin-left: 200px;
+                        }
+                        
+                        .header {
+                            background-color: white;
+                            height: 56px;
+                            margin: auto;
+                            vertical-align: middle;
+                        }
+                        
+                        .nav {
+                            margin-top: 10px;
+                            margin-bottom: 5px;
+                        }
+                        
+                        .section {
+                            width: 960px;
+                            background-image: url("../images/ep_naturalwhite.png");
+                            background-color: #ffffff;
+                            margin-top: 4px;
+                            margin-right: 10px;
+                            text-align: center;
+                            border-style: solid;
+                            border-color: #dddddd #dddddd #dddddd #dddddd;
+                            border-width: 1px;
+                            float: left;
+                        }
+                        
+                        .sectionhr {
+                            margin-top: -34px;
+                            margin-left: 5px;
+                            margin-right: 5px;
+                            margin-bottom: -9px;
+                        }
+                        
+                        .contactmehr {
+                            margin-top: -31px;
+                            margin-left: 5px;
+                            margin-right: 5px;
+                            margin-bottom: 16px;
+                        }
+                        
+                        .aside {
+                            width: 270px;
+                            height: 124px;
+                            background-color: white;
+                            color: #777777;
+                            margin-top: 24px;
+                            margin-left: 673px;
+                            float: left;
+                            text-align: center;
+                        }
+                        
+                        .article {
+                            clear: both;
+                            width: 640px;
+                            height: 365px;
+                            background-color: white;
+                            color: gray;
+                            margin-top: 24px;
+                            margin-left: 14px;
+                            text-align: center;
+                            position: absolute;
+                        }
+                        
+                        .articletext {
+                            width: 610px;
+                            background-color: white;
+                            color: gray;
+                            margin-right: 10px;
+                            margin-left: 10px;
+                            text-align: left;
+                            line-height: 130%;
+                        }
+                        
+                        .portfolio {
+                            clear: both;
+                            width: 370px;
+                            height: 560px;
+                            background-color: white;
+                            color: gray;
+                            margin-top: 24px;
+                            margin-left: 73px;
+                            text-align: center;
+                            position: absolute;
+                        }
+                        
+                        .portfoliopix {
+                            margin-top: 17px;
+                            margin-left: 7px;
+                            margin-right: -22px;
+                            margin-bottom: -25px;
+                            padding-top: 5px;
+                            padding-left: 5px;
+                            padding-right: 5px;
+                            padding-bottom: 5px;
+                            float: left;
+                        }
+                        
+                        .pixbanner1 {
+                            background-color: #4aaaa5;
+                            width: 150px;
+                            height: 32px;
+                            color: white;
+                            font-family: 'Georgia', Times, Times New Roman, serif;
+                            font-size: 16px;
+                            margin-top: 120px;
+                            margin-left: 22px;
+                            text-align: center;
+                            padding-top: 10px;
+                            position: absolute;
+                        }
+                        
+                        .pixbanner2 {
+                            background-color: #4aaaa5;
+                            width: 150px;
+                            height: 32px;
+                            color: white;
+                            font-family: 'Georgia', Times, Times New Roman, serif;
+                            font-size: 16px;
+                            margin-top: 120px;
+                            margin-left: 197px;
+                            text-align: center;
+                            padding-top: 10px;
+                            position: absolute;
+                        }
+                        
+                        .pixbanner3 {
+                            background-color: #4aaaa5;
+                            width: 150px;
+                            height: 32px;
+                            color: white;
+                            font-family: 'Georgia', Times, Times New Roman, serif;
+                            font-size: 16px;
+                            margin-top: 282px;
+                            margin-left: 22px;
+                            text-align: center;
+                            padding-top: 10px;
+                            position: absolute;
+                        }
+                        
+                        .pixbanner4 {
+                            background-color: #4aaaa5;
+                            width: 150px;
+                            height: 32px;
+                            color: white;
+                            font-family: 'Georgia', Times, Times New Roman, serif;
+                            font-size: 16px;
+                            margin-top: 282px;
+                            margin-left: 197px;
+                            text-align: center;
+                            padding-top: 10px;
+                            position: absolute;
+                        }
+                        
+                        .pixbanner5 {
+                            background-color: #4aaaa5;
+                            width: 150px;
+                            height: 32px;
+                            color: white;
+                            font-family: 'Georgia', Times, Times New Roman, serif;
+                            font-size: 16px;
+                            margin-top: 444px;
+                            margin-left: 22px;
+                            text-align: center;
+                            padding-top: 10px;
+                            position: absolute;
+                        }
+                        
+                        .pixbanner6 {
+                            background-color: #4aaaa5;
+                            width: 150px;
+                            height: 32px;
+                            color: white;
+                            font-family: 'Georgia', Times, Times New Roman, serif;
+                            font-size: 16px;
+                            margin-top: 444px;
+                            margin-left: 197px;
+                            text-align: center;
+                            padding-top: 10px;
+                            position: absolute;
+                        }
+                        
+                        .button {
+                            background-color: #4aaaa5;
+                            border: none;
+                            color: white;
+                            padding: 6px 21px;
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            font-size: 16px;
+                            margin-top: -5px;
+                        }
+                        
+                        h1 {
+                            width: 245px;
+                            height: 56px;
+                            background-color: #4aaaa5;
+                            color: white;
+                            font-family: 'Georgia', Times, Times New Roman, serif;
+                            margin-top: 0px;
+                            margin-left: 75px;
+                            text-align: center;
+                            padding-top: 10px;
+                            position: absolute;
+                        }
+                        
+                        h2 {
+                            width: 345px;
+                            height: 50px;
+                            font-family: 'Georgia', Times, Times New Roman, serif;
+                            background-color: white;
+                            color: #4aaaa5;
+                            margin-top: 24px;
+                            margin-left: 20px;
+                            text-align: left;
+                        }
+                        
+                        h4 {
+                            width: 180px;
+                            height: 38px;
+                            font-family: 'Georgia', Times, Times New Roman, serif;
+                            background-color: white;
+                            color: #4aaaa5;
+                            margin-top: 15px;
+                            margin-left: 40px;
+                            text-align: center;
+                        }
+                        
+                        p {}
+                        
+                        .form {
+                            text-align: left;
+                            margin-left: 10px;
+                            padding: 10px;
+                        }
+                        
+                        ul {
+                            margin-right: 20px;
+                            padding-top: 10px;
+                            float: right;
+                        }
+                        
+                        li {
+                            float: right;
+                            display: inline;
+                        }
+                        
+                        li a {
+                            display: block;
+                            padding: 8px;
+                            text-decoration: none;
+                            color: #777777;
+                        }
+                        
+                        a:hover {
+                            background-color: lightgray;
+                            background-size: 100px;
+                        }
+                        
+                        .mainimage {
+                            width: 150px;
+                            margin-top: 0px;
+                            margin-left: 10px;
+                            margin-right: 20px;
+                            margin-bottom: 10px;
+                            width: 150px;
+                            float: left;
+                        }
+                        
+                        .greenbreakerbar {
+                            clear: left;
+                            background-color: #4aaaa5;
+                            width: 960px;
+                            height: 5px;
+                            margin-top: 442px;
+                            float: left;
+                        }
+                        
+                        .footer {
+                            clear: left;
+                            background-color: #666666;
+                            color: gray;
+                            height: 65px;
+                            text-align: center;
+                            margin-top: 595px;
+                        }
+                        
+                        .copyright {
+                            font-size: 10px;
+                            text-align: center;
+                            margin-top: 18px;
+                            margin-left: 422px;
+                            margin-bottom: 5px;
+                            padding-top: 10px;
+                            position: absolute;
+                        }
